@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 import Navbar from "./components/layout/Navbar";
-import UserItem from "./components/user/UserItem";
+import Users from "./components/user/Users";
 
 class App extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class App extends React.Component {
       <div className="App">
         <Navbar title={"Github Profile Finder"} />
         <h1>Hello from react!</h1>
-        <UserItem />
+        <Users />
       </div>
     );
   }
