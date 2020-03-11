@@ -7,10 +7,11 @@ import Users from "./components/user/Users";
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Navbar title={"Github Profile Finder"} />
-        <h1>Hello from react!</h1>
-        <Users />
+        <div className="container">
+          <Users />
+        </div>
       </div>
     );
   }
